@@ -1,0 +1,16 @@
+p {
+  color: rgb(30, 132, 73);
+  background-color: rgb(235, 152, 78);
+  font-family: cursive;
+  font-size: 20px;
+}
+
+/*
+p{
+font: italic bold 10px sans-serif;
+}
+*/
+
+body {
+  background-color: rgb(189, 195, 199);
+}
