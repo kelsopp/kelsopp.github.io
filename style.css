@@ -1,3 +1,11 @@
+body {
+  background-attachment: defalut;
+  background-image: url(splash2.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:;
+}
+
 p {
   color: rgb(30, 132, 73);
   background-color: rgb(235, 152, 78);
@@ -5,12 +13,118 @@ p {
   font-size: 20px;
 }
 
+
 /*
 p{
 font: italic bold 10px sans-serif;
 }
+
+background-color: rgb(189, 195, 199);
 */
 
-body {
-  background-color: rgb(189, 195, 199);
+ul.navigaton {
+  background-color: white;
+  display: block;
+  list-style: none;
+  margin-top: 0;
+  width: 150%;
+  height: 35px;
+}
+
+ul.navigation li{
+  display: inline-block;
+  float: left;
+}
+
+ul.navigation a {
+  color:black;
+  display: block;
+  padding: 10px;
+  text-decoration:none;
+}
+
+ul.navigation a:hover {
+  background-color: black;
+  color:white;
+}
+
+
+a:link{
+  color: #FF0000;
+  text-decoration: none;
+}/*unvisted link */
+
+a:visted{
+color: #00FF00;
+} /* visted link */
+
+a:hover { color: #800000;
+} /*mouse over link */
+
+a:active { color: #0000FF;
+} /* selected */
+
+
+.sidebar {
+  float: left;
+  width: 100%;
+}
+
+.content {
+  float: left;
+  width: 100%;
+}
+
+
+p em {
+  color: blue;
+}
+
+ img {
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+}
+
+
+div{
+    width: 40%;
+    padding: 5px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.sidebar {
+  float: left;
+  width: 2%;
+}
+
+.content {
+  float:left;
+  width; 7%;
+}
+
+/* .sidebar {
+  float: left;
+  width: 80%;
+}
+
+*
+.content {
+  float: left;
+  width: 70%;
+}
+*/
+
+}
+#colorful-list{
+  color: blue;
+}
+
+#Red-herring {
+  color: Red;
+}
+
+#Indiegogo {
+  color: purple;
 }
